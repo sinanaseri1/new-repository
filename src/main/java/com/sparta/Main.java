@@ -9,7 +9,7 @@ public class Main {
 
     public static String greeting(int timeOfday) {
         String greeting;
-        if(timeOfday >=5 && timeOfday <=12 ){
+        if(timeOfday >=5 && timeOfday <12 ){
             greeting = "good morning";
         }
         else if(timeOfday >=12 && timeOfday <=18){
